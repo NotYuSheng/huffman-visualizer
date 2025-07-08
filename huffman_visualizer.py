@@ -15,6 +15,7 @@ class Node:
         self.left = None
         self.right = None
     def __lt__(self, other):
+        """Enable priority queue behavior for the nodes."""
         return self.freq < other.freq
 
 # === Huffman Logic ===
