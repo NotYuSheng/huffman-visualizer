@@ -9,6 +9,16 @@ A Python-based tool to explore and visualize Huffman Coding. Given a text input,
 
 ---
 
+## Demo
+
+<div align="center">
+
+![App Demo](https://github.com/NotYuSheng/huffman-visualizer/blob/main/sample-files/DEMO.gif) <br>
+
+</div>
+
+---
+
 ## Setup
 
 To run this project locally, you can use a Python virtual environment.
