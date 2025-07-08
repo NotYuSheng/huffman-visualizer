@@ -35,7 +35,7 @@ sudo apt install python3-tk
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/huffman-visualizer.git
+git clone https://github.com/notyusheng/huffman-visualizer.git
 cd huffman-visualizer
 ```
 
