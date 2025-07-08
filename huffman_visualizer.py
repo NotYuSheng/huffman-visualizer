@@ -206,7 +206,7 @@ class HuffmanApp:
         for ch in sorted(codes):
             self.log_step(f"'{ch}': {codes[ch]}")
         encoded = ''.join(codes[ch] for ch in text.lower() if ch in codes)
-        original_bits = len(text) * 8  # 8 bits per ASCII character
+        original_bits = len(text.encode('utf-8')) * 8  # Account for Unicode
         compressed_bits = len(encoded)
 
         compression_ratio = ((original_bits - compressed_bits) / original_bits) * 100 if original_bits > 0 else 0
